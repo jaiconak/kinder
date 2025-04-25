@@ -19,7 +19,7 @@ def pwGen(nr_letters,nr_numbers,nr_symbols):
             password_list.append(random.choice(symbols))
             return password_list
     except Exception as e:
-        print (f"MUST BE A VALID INT! NO FLOATS NO STRINGS NO CHARACTERS! {e}")
+        print (f"MUST BE A VALID INT! NO FLOATS NO STRINGS NO CHARACTERS!! CMON GUY THIS IS THE ERROR->> {e}")
 
         
 
